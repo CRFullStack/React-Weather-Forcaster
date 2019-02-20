@@ -45,6 +45,10 @@ class SideBar extends Component {
       response = await API.get(
         `/weather?zip=${this.state.zip},us&units=imperial&APPID=${key}`
       );
+    } else if (this.state.zip === "" && this.state.country === "") {
+      response = await API.get(
+        `/weather?q=${this.state.city}&units=imperial&APPID=${key}`
+      );
     } else {
       response = await API.get(
         `/weather?q=${this.state.city},${
@@ -88,7 +92,6 @@ class SideBar extends Component {
             onChange={this.handleChange}
           />
           OR
-          <br />
           <br />
           Zip Code:
           <input
