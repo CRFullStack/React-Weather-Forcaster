@@ -1,4 +1,4 @@
-##### Should I Bring an Umbrella?
+# Should I Bring an Umbrella?
 
 A simple app which finds the weather in a city. Using React, it makes an api call to the [OpenWeatherMap api](https://openweathermap.org/api) to get the weather.
 
