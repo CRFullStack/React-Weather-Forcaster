@@ -8,6 +8,8 @@ You will need to register an [api key](https://home.openweathermap.org/api_keys)
 
 The key will need to added to the folder `src/components/SideBar.js`, then set to the `key` variable.
 
+![Alt text](/src/images/snip.PNG?raw=true "the app")
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
