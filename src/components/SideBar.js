@@ -6,7 +6,7 @@ import axios from "axios";
 
 // Create a base Api call
 const API = axios.create({
-  baseURL: `http://api.openweathermap.org/data/2.5`
+  baseURL: `https://api.openweathermap.org/data/2.5`
 });
 
 // Open weather map needs an api key that needs to be sent on every request
