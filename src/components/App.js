@@ -13,7 +13,8 @@ class App extends Component {
     this.state = {
       temp: "", // req  tempeture
       city: "", // req  city
-      country: "", // req  country
+      country: "", // req  country,
+      zip: "",
       descr: "", // req  description of weather
       icon: "", // req  openweathermap icon
       loading: false // bool  is the page loading

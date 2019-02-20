@@ -69,8 +69,8 @@ code {
 /* Styles the input box*/
 input[type="text"] {
   width: 100%;
-  padding: 5px 10px;
-  margin: 8px 4px;
+  padding: 1px 2px;
+  margin: 1px 2px;
   box-sizing: border-box;
 }
 
@@ -88,7 +88,7 @@ input[type="text"] {
 /* Adjust png images*/
 img {
   height: auto;
-  width: 9vh;
+  width: 15vh;
   padding-top: 1%;
 }
 

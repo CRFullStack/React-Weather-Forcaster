@@ -31,6 +31,7 @@ class DisplayOverlay extends Component {
           <div>
             <p>Find the Weather by Entering a City & Country </p>
             <p>You must use country abbreviations, i.e. "US" or "JP" </p>
+            <p>Or, make it easy by just typing the zip code</p>
             <img
               src={"http://openweathermap.org/img/w/01d.png"}
               alt={"Enter a country & city!"}
