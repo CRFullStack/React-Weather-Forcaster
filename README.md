@@ -1,3 +1,15 @@
+##### Should I Bring an Umbrella?
+
+A simple app which finds the weather in a city. Using React, it makes an api call to the [OpenWeatherMap api](https://openweathermap.org/api) to get the weather.
+
+To use the app, simply supply a country & city to the input fields, then submit with the weather button.
+
+You will need to register an [api key](https://home.openweathermap.org/api_keys) from OpenWeatherMap.
+
+The key will need to added to the folder `src/components/SideBar.js`, then set to the `key` variable.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
